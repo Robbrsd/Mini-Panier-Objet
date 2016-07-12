@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous:400);
+
+html
+{
+    font-family: 'Righteous', cursive;
+}
+
+/* Haut de page */
+header
+{
+    background-color: #255F85;
+    color: #5FC2F1;
+    font-size: 1.7em;
+    padding:50px;
+    text-align: center;
+    font-weight:bold;
+    border : 7px solid #5FC2F1;
+    border-bottom:none;
+    border-radius: 40px;
+}
+
+
+#text-appear:hover h1
+{
+    text-decoration:overline;
+    text-transform: uppercase;
+    
+}
+@keyframes trip {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+
+}
+/* Middle */
+main
+{
+    background-color: #5FC2F1;
+    color : #006BA6; 
+    padding: 100px; 
+    text-align: center;
+    font-size: 1em;
+    padding-bottom: 0;
+}
+#button-banane , #button-cafe , #button-chocolat
+{
+    padding: 20px;
+    color:#5FC2F1;
+    background-color: #255F85;
+    border:none;
+    margin: 5px;
+    width: 275px;
+    text-transform: uppercase;
+    padding-top:185px;
+    background-size: 100% 76%;
+    background-repeat: no-repeat;
+    box-shadow: 3px 3px 3px #255F85;
+}
+#button-banane:hover , #button-cafe:hover , #button-chocolat:hover
+{
+    color: #255F85;
+    cursor: pointer;
+    background-color: rgba(37,95,133,0.1);
+    width:250px;
+    animation: trip 0.2s linear;
+    margin-left:30px;
+    margin-right: 30px;
+    border-radius: 7px;
+}
+#button-banane:focus , #button-cafe:focus , #button-chocolat:focus
+{
+    border:2px solid #3594B7;
+}
+#button-banane
+{
+    background-image: url(../img/banane.jpg);
+}
+#button-cafe
+{
+    background-image: url(../img/Caf%C3%A9.jpg);
+}
+#button-chocolat
+{
+    background-image: url(../img/chocolat.jpg);
+}
+
+#texte-panier
+{
+    margin: 40px;
+    color: #006BA6;
+    font-size:1.1em;
+}
+
+
+/* Bas de page */
+Footer
+{
+    background-color: #255F85;
+    color: #5FC2F1 ;
+    padding: 20px;
+    font-size: 0.75em;
+    text-align: center;
+    margin: 45px 0px 45px 0px;
+    
+}
+body
+{
+    background-color: #5FC2F1;
+}
+table
+{
+    margin:auto;
+}
+td, th
+{
+    padding: 10px;
+}
+#btn-clean
+{
+    padding:7px;
+    margin-top:25px;
+    margin-bottom: 30px;
+    color:#5FC2F1;
+    background-color: #255F85;
+    border: 2px solid ;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #255F85;
+}
+
+
+/* Img from JSS */
+.img-article
+{
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
