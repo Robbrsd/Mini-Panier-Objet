@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Righteous:400);
 
-html
+body
 {
     font-family: 'Righteous', cursive;
 }
@@ -54,6 +54,7 @@ main
     background-size: 100% 76%;
     background-repeat: no-repeat;
     box-shadow: 3px 3px 3px #255F85;
+    
 }
 #button-banane:hover , #button-cafe:hover , #button-chocolat:hover
 {
